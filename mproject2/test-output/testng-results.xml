@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18044" started-at="2020-10-22T11:51:36Z" finished-at="2020-10-22T11:51:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18044" started-at="2020-10-22T11:51:36Z" finished-at="2020-10-22T11:51:54Z">
+      <class name="com.appium.gesture.swipe">
+        <test-method status="PASS" signature="insectapp4()[pri:0, instance:com.appium.gesture.swipe@60285225]" name="insectapp4" duration-ms="18013" started-at="2020-10-22T11:51:36Z" finished-at="2020-10-22T11:51:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insectapp4 -->
+      </class> <!-- com.appium.gesture.swipe -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
