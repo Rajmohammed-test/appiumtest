@@ -32,10 +32,10 @@ public class swip2 {
 		int ht=d.getHeight();
 		int bd=d.getWidth();
 		
-		int startx=(int)(ht*.20);
-		int starty=(int)(bd*.50);
-		int endx=(int)(ht*.80);
-		int endy=(int)(bd*50);
+		int starty=(int)(ht*.20);
+		int startx=(int)(bd*.50);
+		int endy=(int)(ht*.80);
+		int endx=(int)(bd*.50);
 		
 		driver.swipe(startx, starty, endx, endy, 500);
 		

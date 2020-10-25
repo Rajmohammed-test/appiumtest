@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18044" started-at="2020-10-22T11:51:36Z" finished-at="2020-10-22T11:51:54Z">
+  <suite name="Default suite" duration-ms="24213" started-at="2020-10-25T08:42:22Z" finished-at="2020-10-25T08:42:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18044" started-at="2020-10-22T11:51:36Z" finished-at="2020-10-22T11:51:54Z">
-      <class name="com.appium.gesture.swipe">
-        <test-method status="PASS" signature="insectapp4()[pri:0, instance:com.appium.gesture.swipe@60285225]" name="insectapp4" duration-ms="18013" started-at="2020-10-22T11:51:36Z" finished-at="2020-10-22T11:51:54Z">
+    <test name="Default test" duration-ms="24213" started-at="2020-10-25T08:42:22Z" finished-at="2020-10-25T08:42:46Z">
+      <class name="com.appium.gesture.zoommulti">
+        <test-method status="PASS" signature="insectapp4()[pri:0, instance:com.appium.gesture.zoommulti@e720b71]" name="insectapp4" duration-ms="24185" started-at="2020-10-25T08:42:22Z" finished-at="2020-10-25T08:42:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insectapp4 -->
-      </class> <!-- com.appium.gesture.swipe -->
+      </class> <!-- com.appium.gesture.zoommulti -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

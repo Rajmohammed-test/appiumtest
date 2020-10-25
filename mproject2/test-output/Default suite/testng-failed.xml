@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.appium.practice.vooniktest">
+      <class name="com.appium.gesture.swip2">
         <methods>
-          <include name="insectapp3"/>
+          <include name="insectapp5"/>
         </methods>
-      </class> <!-- com.appium.practice.vooniktest -->
+      </class> <!-- com.appium.gesture.swip2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

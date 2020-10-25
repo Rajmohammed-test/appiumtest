@@ -24,7 +24,7 @@ public class swipe {
 		
 		URL url=new URL("http://localhost:4723/wd/hub");
 		AndroidDriver driver=new AndroidDriver(url,dc);
-		driver.swipe(10, 20, 200, 20, 500);
+		driver.swipe(200, 100, 300, 100, 300);
 
 }
 }
