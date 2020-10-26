@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.appium.gesture.swip2">
+      <class name="com.appium.practice.notifation">
         <methods>
-          <include name="insectapp5"/>
+          <include name="insectapp54"/>
         </methods>
-      </class> <!-- com.appium.gesture.swip2 -->
+      </class> <!-- com.appium.practice.notifation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

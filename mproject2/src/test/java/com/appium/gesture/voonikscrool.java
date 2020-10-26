@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
-
+import genericlib1.scroll;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 
@@ -34,15 +34,15 @@ public class voonikscrool {
        
        driver.tap(1, drawer, 500);
        
-       scrolling("text","Refund Policy");
+      scroll.scrolling("text","Refund Policy",driver);
        
        MobileElement element =(MobileElement) driver.findElementByXPath("//android.widget.TextView[@text='Refund Policy']");
        element.click();
 	}     
-       public static void scrolling(String an , String av) 
+    /*   public static void scrolling(String an , String av) 
        {
         driver.findElementsByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(" + an + "(\"" + av + "\"))");
-       }
+       }  */
 
        
 	}

@@ -1,4 +1,4 @@
-package genericlib;
+package com.appium.gesture;
 
 import java.net.MalformedURLException;
 import java.net.URL;

@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
 
+import genericlib1.touch;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 
@@ -37,8 +38,8 @@ public class Dragdrop {
 		Thread.sleep(2000);
 		WebElement dst=driver.findElementByXPath("//android.widget.TextView[@text='Herbie Hancock']");
 		
-		TouchAction as =new TouchAction(driver);
-		as.longPress(src).waitAction().moveTo(dst).perform().release();
+		touch.dragdrop(src,dst,driver);
+		
 		
 		
 		

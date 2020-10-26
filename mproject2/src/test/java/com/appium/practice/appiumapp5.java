@@ -2,17 +2,15 @@ package com.appium.practice;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.ArrayList;
 
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.ScreenOrientation;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
 
-import genericlib1.taap;
 import io.appium.java_client.android.AndroidDriver;
 
-public class inspectapp {
-
+public class appiumapp5 {
+	
 	@Test
 	public void insectapp2() throws MalformedURLException, InterruptedException
 	{
@@ -28,18 +26,16 @@ public class inspectapp {
 		URL url=new URL("http://localhost:4723/wd/hub");
 		AndroidDriver driver=new AndroidDriver(url,dc);
 		
-		WebElement ele=driver.findElementByAccessibilityId("Views");
-		taap.tap(ele, driver);
+		System.out.println("first ori   "+driver.getOrientation());
+		driver.rotate(ScreenOrientation.LANDSCAPE);
 		
-		WebElement ele2=driver.findElementByAccessibilityId("Controls");
-		taap.tap(ele2, driver);
+		driver.findElementByAccessibilityId("Accessibility").click();
 		
-		WebElement ele3=driver.findElementByAccessibilityId("2. Dark Theme");
-		taap.tap(ele3, driver);
+		System.out.println("second ori   "+driver.getOrientation());
+		driver.rotate(ScreenOrientation.PORTRAIT);
+		System.out.println("third ori   "+driver.getOrientation());
 		
 		
-	
-		//driver.findElementByXPath("//android.widget.TextView[@content-desc='App']").click();
 	}
 
 }
