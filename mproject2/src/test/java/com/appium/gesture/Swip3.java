@@ -40,6 +40,8 @@ public class Swip3 {
 		gswipe.swipe(startx, starty, endx, endy,driver);
 		gswipe.swipe(endx, endy, endx2, endy,driver);
 		
+	
+		
 	}
 
 

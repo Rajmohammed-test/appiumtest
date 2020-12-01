@@ -34,8 +34,9 @@ public class Draganddropio {
 		
 		driver.findElementByXPath("//android.widget.TextView[@content-desc='Drag and Drop']").click();
 		MobileElement src=(MobileElement) driver.findElementByXPath("//android.view.View[@resource-id='io.appium.android.apis:id/drag_dot_1']");
-		MobileElement dst=(MobileElement) driver.findElementByXPath("//android.view.View[@resource-id='io.appium.android.apis:id/drag_dot_3']");
+		//MobileElement dst=(MobileElement) driver.findElementByXPath("//android.view.View[@resource-id='io.appium.android.apis:id/drag_dot_3']");
 		MobileElement dst1=(MobileElement) driver.findElementByXPath("//android.view.View[@resource-id='io.appium.android.apis:id/drag_dot_2']");
+		
 		TouchAction ts=new TouchAction(driver);
 		//ts.longPress(src).waitAction().moveTo(dst).release().perform();
 		Thread.sleep(10000);

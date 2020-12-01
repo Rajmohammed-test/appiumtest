@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19120" started-at="2020-10-26T08:07:37Z" finished-at="2020-10-26T08:07:57Z">
+  <suite name="Default suite" duration-ms="36044" started-at="2020-11-23T14:43:45Z" finished-at="2020-11-23T14:44:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19120" started-at="2020-10-26T08:07:37Z" finished-at="2020-10-26T08:07:57Z">
-      <class name="com.appium.practice.remove">
-        <test-method status="PASS" signature="oppencal()[pri:0, instance:com.appium.practice.remove@60285225]" name="oppencal" duration-ms="19063" started-at="2020-10-26T08:07:38Z" finished-at="2020-10-26T08:07:57Z">
+    <test name="Default test" duration-ms="36044" started-at="2020-11-23T14:43:45Z" finished-at="2020-11-23T14:44:21Z">
+      <class name="com.appium.gesture.selectio">
+        <test-method status="PASS" signature="insectapp2()[pri:0, instance:com.appium.gesture.selectio@60285225]" name="insectapp2" duration-ms="36006" started-at="2020-11-23T14:43:45Z" finished-at="2020-11-23T14:44:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- oppencal -->
-      </class> <!-- com.appium.practice.remove -->
+        </test-method> <!-- insectapp2 -->
+      </class> <!-- com.appium.gesture.selectio -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

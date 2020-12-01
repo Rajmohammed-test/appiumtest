@@ -26,6 +26,8 @@ public class remove {
 		driver.removeApp("com.mobeta.android.demodslv");
 		
 		System.out.println("app installed ?"+driver.isAppInstalled("com.mobeta.android.demodslv"));
+		
+		
 	}
 
 }

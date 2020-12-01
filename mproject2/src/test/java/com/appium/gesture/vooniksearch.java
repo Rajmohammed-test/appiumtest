@@ -37,7 +37,9 @@ public class vooniksearch {
        
        WebElement ele=driver.findElementByXPath("//android.widget.EditText[@resource-id='com.mrvoonik.android:id/search']");
        
+              
        ele.sendKeys("Shirts");
+       
        
       
 	}

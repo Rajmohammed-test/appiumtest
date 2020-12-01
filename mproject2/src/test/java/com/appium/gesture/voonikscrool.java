@@ -39,10 +39,10 @@ public class voonikscrool {
        MobileElement element =(MobileElement) driver.findElementByXPath("//android.widget.TextView[@text='Refund Policy']");
        element.click();
 	}     
-    /*   public static void scrolling(String an , String av) 
+     public static void scrolling(String an , String av) 
        {
         driver.findElementsByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(" + an + "(\"" + av + "\"))");
-       }  */
+       }  
 
        
 	}
